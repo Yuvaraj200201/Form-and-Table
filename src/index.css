@@ -1,0 +1,162 @@
+.form-container {
+  padding: 5px;
+}
+.head {
+  font-size: xx-large;
+}
+.form {
+  width: 60vw;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 1%;
+}
+.name {
+  font-size: large;
+  width: 90%;
+  margin: 2%;
+  padding: 4px 6px;
+  height: 35px;
+  border-radius: 5px;
+}
+.email {
+  font-size: large;
+  width: 90%;
+  margin: 2%;
+  padding: 4px 6px;
+  height: 35px;
+  border-radius: 5px;
+}
+.btn {
+  font-size: large;
+  border: none;
+  color: white;
+  background-color: blue;
+  font-weight: bold;
+  margin-left: 15px;
+  padding: 10px 20px;
+  border-radius: 10%;
+  cursor: pointer;
+  height: 40px;
+}
+.btn:hover {
+  background-color: rgb(63, 63, 218);
+}
+
+/* table */
+.table {
+  width: 60vw;
+  margin-top: 3%;
+  border-collapse: collapse;
+  padding: 5px;
+}
+thead tr {
+  border: 1px solid gray;
+  background-color: rgb(231, 230, 230);
+}
+thead th {
+  font-size: large;
+  border: 1px solid gray;
+  padding: 7px;
+}
+
+tbody td {
+  border: 1px solid gray;
+  padding: 7px;
+  font-size: 20px;
+}
+.edit-btn {
+  margin-right: 10px;
+  margin-left: 30px;
+  background-color: green;
+  border: none;
+  font-weight: bold;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: solid black 1px;
+  cursor: pointer;
+}
+.edit-btn:hover {
+  background-color: rgb(54, 155, 54);
+}
+.del-btn {
+  margin-left: 10px;
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: solid black 1px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.del-btn:hover {
+  background-color: rgb(240, 43, 55);
+}
+
+@media screen and (max-width: 640px) {
+  .heading {
+    font-size: medium;
+    font-weight: bolder;
+  }
+  .form {
+    width: 80vw;
+  }
+  .btn {
+    margin-left: 10px;
+  }
+  .table {
+    width: 80vw;
+  }
+}
+@media screen and (max-width: 460px) {
+  .form {
+    width: 90vw;
+    margin: auto;
+  }
+  .table {
+    width: 90vw;
+    margin: 10px auto;
+  }
+  .table th {
+    font-size: 14px;
+    padding: 0;
+  }
+  .tbody td {
+    font-size: 4px;
+    padding: 0;
+  }
+  .edit-btn {
+    padding: 0;
+    margin: 0;
+  }
+  .del-btn {
+    padding: 0;
+    margin: 0;
+  }
+  .name {
+    height: 25px;
+  }
+  .email {
+    height: 25px;
+  }
+  .btn {
+    height: 30px;
+    padding: 4px 6px;
+  }
+  .name_data {
+    font-size: medium;
+  }
+  .mail_data {
+    font-size: medium;
+  }
+  .edit-btn {
+    padding: 2px 4px;
+    margin: 2px;
+  }
+  .del-btn {
+    padding: 2px 4px;
+    margin: 2px;
+  }
+
+}
